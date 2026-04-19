@@ -3,25 +3,52 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Ejemplo de Página</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emanuel Fernandez | Portafolio Devops</title>
+    <meta name="description" content="Portafolio profesional de Emanuel Fernandez, especialista en Devops.">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <header>
-        <h1>Bienvenido a mi sitio</h1>
+
+    <header id="hero">
+        <h1>Emanuel Fernandez</h1>
+        <p>Devops & Automatización</p>
     </header>
-    <nav>
-        <ul>
-            <li><a href="#">Inicio</a></li>
-            <li><a href="#">Servicios</a></li>
-        </ul>
-    </nav>
-    <section>
-        <h2>Sobre nosotros</h2>
-        <p>Este es un párrafo de ejemplo.</p>
-    </section>
+
+    <main>
+        <section class="projects" id="projects-section">
+            <h2>Mis Proyectos</h2>
+            <div class="grid-container">
+                <article class="card" id="project-1">
+                    <h3>Arquitectura Cisco WxCC</h3>
+                    <p>Diseño y despliegue de infraestructura utilizando Webex Contact Center.</p>
+                    <a href="proyecto1.html">Ver más</a>
+                </article>
+
+                <article class="card" id="project-2">
+                    <h3>Pipeline CI/CD</h3>
+                    <p>Automatización completa del ciclo de vida del software con GitHub Actions.</p>
+                    <a href="proyecto2.html">Ver más</a>
+                </article>
+
+                <article class="card" id="project-3">
+                    <h3>Monitoreo Proactivo</h3>
+                    <p>Implementación de ThousandEyes.</p>
+                    <a href="proyecto3.html">Ver más</a>
+                </article>
+            </div>
+        </section>
+    </main>
+
     <footer>
-        <p>© 2026 Mi Sitio Web</p>
+        <p>&copy; 2026 - Emanuel Fernandez. Todos los derechos reservados.</p>
+        <div class="socials">
+            <a href="https://github.com/aemafernandez" target="_blank" id="footer-github">GitHub</a>
+        </div>
     </footer>
 
 </body>
