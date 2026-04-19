@@ -2,24 +2,48 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Ejemplo de Página</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portafolio Simple</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+
     <header>
-        <h1>Bienvenido a mi sitio</h1>
+        <h1>Emanuel Fernandez</h1>
+        <p>Devops</p>
     </header>
-    <nav>
-        <ul>
-            <li><a href="#">Inicio</a></li>
-            <li><a href="#">Servicios</a></li>
-        </ul>
-    </nav>
-    <section>
-        <h2>Sobre nosotros</h2>
-        <p>Este es un párrafo de ejemplo.</p>
-    </section>
+
+    <main>
+        <section class="projects">
+            <h2>Mis Proyectos</h2>
+            <div class="grid-container">
+                <article class="card">
+                    <h3>Proyecto 1</h3>
+                    <p>Descripción breve del proyecto, tecnologías usadas y el problema que resuelve.</p>
+                    <a href="#">Ver más</a>
+                </article>
+
+                <article class="card">
+                    <h3>Proyecto 2</h3>
+                    <p>Descripción breve del proyecto, tecnologías usadas y el problema que resuelve.</p>
+                    <a href="#">Ver más</a>
+                </article>
+
+                <article class="card">
+                    <h3>Proyecto 3</h3>
+                    <p>Descripción breve del proyecto, tecnologías usadas y el problema que resuelve.</p>
+                    <a href="#">Ver más</a>
+                </article>
+            </div>
+        </section>
+    </main>
+
     <footer>
-        <p>© 2026 Mi Sitio Web</p>
+        <p>&copy; 2026 - Creado por mi</p>
+        <div class="socials">
+            <a href="#">GitHub</a>
+        </div>
     </footer>
+
 </body>
 </html>
